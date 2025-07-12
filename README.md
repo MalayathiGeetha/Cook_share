@@ -38,26 +38,21 @@ Make sure MySQL DB is running
 
 Configure application.properties:
 
+```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/cookshare
+
 spring.datasource.username=your_db_user
+
 spring.datasource.password=your_db_password
+
 spring.jpa.hibernate.ddl-auto=update
-Run the Spring Boot application:
 
 ./mvnw spring-boot:run
 
 
 💻 Frontend (React with Vite)
-Navigate to frontend folder:
-
-cd cook-share-frontend
-Install dependencies:
-
-npm install
-Run the development server:
-
-npm run dev
-Open in browser:
-
-http://localhost:5173
+Navigate to frontend folder:cd cook-share-frontend
+Install dependencies:npm install
+Run the development server:npm run dev
+Open in browser:http://localhost:5173
 
